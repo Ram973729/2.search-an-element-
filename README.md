@@ -1,1 +1,11 @@
 # 2.search-an-element-
+n=int(input())
+l=list(map(int,input().split()))
+x=int(input())
+check=0
+for i in range(0,n):
+    if l[i]==x:
+        print('element is found at',i,'index location')
+        check=1
+if check==0:
+   print('element is not found')
